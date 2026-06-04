@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.sanity/
+.env
+.DS_Store
+*.log
+*.swp
+assets/images/personal/IMG_*
+assets/images/personal/img-*
+assets/images/personal/personal-*.png
+assets/images/personal/shanghai-*.png
+assets/images/personal/contact-sheet.jpg
+assets/images/personal/shanghai-contact-sheet.jpg
+assets/images/personal/shanghai-[0-9]*.jpg

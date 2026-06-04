@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Art of Moving</title>
+    <meta
+      name="description"
+      content="A personal brand website shaped by movement, logistics, travel, art, and Mediterranean beauty."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Parisienne&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <!-- NAME STYLE: change signature-option-1 to signature-option-2 or signature-option-3 to try another logo wordmark. -->
+      <a class="brand signature signature-option-1" href="#top" aria-label="Chloe Wang, The Art of Moving home">Chloe Wang</a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" data-nav>
+        <a href="#about">About Me</a>
+        <a href="#journey">Career</a>
+        <a href="#art">Interests & Art</a>
+        <a href="#gallery">Travel & Places</a>
+        <a href="#shanghai">Shanghai Life</a>
+        <a href="#motherhood">Motherhood</a>
+        <a href="#journal">Journal</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="The Art of Moving introduction">
+        <!-- HERO PHOTO: city / travel / atmospheric portrait. Strong alternate options: personal-hero-seaside-cafe.jpg or personal-mediterranean-garden.jpg. -->
+        <img src="assets/images/personal/personal-seine-eiffel.jpg" alt="Chloe seated along the Seine with the Eiffel Tower in the distance" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">A Riviera Journal</p>
+          <!-- NAME STYLE: primary homepage signature. Try signature-option-2 or signature-option-3 for alternate visual directions. -->
+          <p class="hero-signature signature signature-option-1" aria-label="Chloe Wang">Chloe Wang</p>
+          <h1>The Art of Moving</h1>
+          <p class="hero-copy">A journey through work, places, art, and the stories that connect them.</p>
+          <a href="#journey" class="text-link">Begin the journey</a>
+        </div>
+      </section>
+
+      <section class="intro section-pad" id="about">
+        <div class="intro-copy">
+          <p class="section-kicker">Not a resume</p>
+          <h2>A life shaped by movement.</h2>
+          <div class="about-text">
+            <p>Some lives are shaped by stillness. Mine has been shaped by movement.</p>
+            <p>My life has always been in motion — shaped by roads, cities, borders, and the unexpected turns that quietly change us.</p>
+            <p>I work in the world of movement, connecting places across China and the world. But I am equally drawn to slower things: Mediterranean light, old architecture, art, literature, photographs, and the feeling of discovering world cities.</p>
+            <p>As life enters a new chapter, I find myself collecting moments more carefully. This is a personal space for the places I have loved, the work that has shaped me, the images I want to remember, and the small beginnings still waiting to unfold.</p>
+          </div>
+        </div>
+        <figure class="portrait-card">
+          <!-- ABOUT PORTRAIT: polished lifestyle portrait. Replace with another personal portrait later. -->
+          <img src="assets/images/personal/personal-about-cafe-de-flore.jpg" alt="Chloe outside Cafe de Flore in Paris">
+          <figcaption>
+            <span>Personal note</span>
+            Built around curiosity, beauty, connection, and a professional life in motion.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="journey section-pad" id="journey">
+        <div class="section-heading">
+          <p class="section-kicker">My Journey</p>
+          <h2>Career as a route map</h2>
+          <p>
+            A career shaped by movement — from air routes and ocean passages to the roads connecting China and Southeast Asia.
+          </p>
+        </div>
+
+        <div class="timeline" aria-label="Professional journey timeline">
+          <article>
+            <span class="chapter">01</span>
+            <p class="card-label">Air Freight</p>
+            <h3>Tracing Invisible Lines</h3>
+            <p>My journey began in air freight, where cities are connected by routes that cannot be seen. It was an early lesson in timing, precision, and the quiet coordination behind every departure.</p>
+          </article>
+          <article>
+            <span class="chapter">02</span>
+            <p class="card-label">Ocean Freight</p>
+            <h3>Learning the Rhythm of Distance</h3>
+            <p>Then came the sea — ports, containers, long passages, and a different sense of time. Ocean freight taught me that movement is not always about speed, but also about patience, planning, and perspective.</p>
+          </article>
+          <article>
+            <span class="chapter">03</span>
+            <p class="card-label">Cross-Border Road</p>
+            <h3>Connecting Roads Across Borders</h3>
+            <p>Today, my work moves closer to the ground, along the roads linking China and Southeast Asia. Border crossings, warehouses, trucks, and changing conditions become part of a living network — one that requires practical thinking, adaptability, and a clear sense of direction.</p>
+          </article>
+          <article>
+            <span class="chapter">04</span>
+            <p class="card-label">The Next Chapter</p>
+            <h3>Moving Forward</h3>
+            <p>Logistics has taught me to find a way through complexity: to connect places, solve problems, and keep moving when the route is not yet clear. I carry that perspective into new ideas, new tools, and every chapter still waiting to unfold.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="places section-pad section-hidden" id="places" aria-hidden="true">
+        <div class="split">
+          <div class="split-copy">
+            <p class="section-kicker">Places</p>
+            <h2>Cities, coastlines, and the memory of light</h2>
+            <p>
+              Europe, the French Riviera, Mediterranean towns, old balconies, sea air, cafes, flowers, and
+              beautiful details collected as fragments of a larger personal atlas.
+            </p>
+          </div>
+          <div class="place-grid">
+            <figure class="place-main">
+              <!-- TRAVEL PHOTO: French Riviera / Mediterranean town. -->
+              <img src="assets/images/personal/personal-travel-riviera-town.jpg" alt="Chloe seated by a Riviera town with the sea and storm clouds behind her">
+              <figcaption>Riviera / blue distance / weather</figcaption>
+            </figure>
+            <figure>
+              <!-- TRAVEL PHOTO: Mediterranean garden and sea view, strong hero backup option. -->
+              <img src="assets/images/personal/personal-mediterranean-garden.jpg" alt="Chloe in a Mediterranean garden overlooking the blue sea">
+              <figcaption>Garden / sea / southern light</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="shanghai-life section-pad" id="shanghai">
+        <div class="section-heading narrow">
+          <p class="section-kicker">Life in Shanghai</p>
+          <h2>The city I return to</h2>
+          <p>
+            A softer archive of everyday life: weekend coffee, familiar streets, workday notes, books left open on the table,
+            and the small rituals that slowly turn a city into a form of home.
+          </p>
+        </div>
+
+        <div class="life-board">
+          <figure class="life-feature">
+            <!-- SHANGHAI LIFE PHOTO: visual diary / camera mirror moment. Replace with another Shanghai daily-life photo later. -->
+            <img src="assets/images/personal/shanghai-camera-mirror.jpg" alt="Chloe taking a mirror photo with a camera in a Shanghai cafe">
+            <figcaption>Shanghai / small rituals / the quiet texture of everyday life</figcaption>
+          </figure>
+          <div class="life-notes">
+            <article>
+              <p class="card-label">Weekend Coffee</p>
+              <h3>Cafés as small pauses</h3>
+              <p>Quiet mornings, a good cup, a window seat, and the pleasure of letting Shanghai slow down for a moment.</p>
+            </article>
+            <article>
+              <p class="card-label">Neighborhood Walks</p>
+              <h3>A city read slowly</h3>
+              <p>Tree-lined streets, old façades, small shops, and conversations collected gradually — one neighborhood at a time.</p>
+            </article>
+            <article>
+              <p class="card-label">Between Workdays</p>
+              <h3>Notes between meetings</h3>
+              <p>Work, reading, passing thoughts, and the small moments gathered in between — reminders that a life is made not only of milestones, but also of ordinary days.</p>
+            </article>
+            <article>
+              <p class="card-label">A Sense of Home</p>
+              <h3>The familiar rhythm of return</h3>
+              <p>Some cities are remembered as destinations. Others become part of the way we live — through habits, seasons, streets, and the quiet comfort of returning.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="daily-strip" aria-label="Shanghai daily life placeholders">
+          <figure>
+            <!-- DAILY LIFE PHOTO: weekend coffee and reading detail. -->
+            <img src="assets/images/personal/shanghai-coffee-01.jpg" alt="Coffee, pastry, and a blue patterned book on a table">
+            <figcaption>Coffee / books / weekend reset</figcaption>
+          </figure>
+          <figure>
+            <!-- DAILY LIFE PHOTO: Shanghai cafe window and workday pause. -->
+            <img src="assets/images/personal/shanghai-daily-02.jpg" alt="Chloe sitting by a cafe window with coffee and dessert">
+            <figcaption>Window seat / coffee / city rhythm</figcaption>
+          </figure>
+          <figure>
+            <!-- DAILY LIFE PHOTO: reading and coffee detail. -->
+            <img src="assets/images/personal/shanghai-citywalk-03.jpg" alt="Coffee and books on a small table">
+            <figcaption>Reading / notes / cultural output</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="art section-pad" id="art">
+        <div class="section-heading narrow">
+          <p class="section-kicker">ART & INSPIRATION</p>
+          <h2>A private atlas of beauty</h2>
+          <p>
+            Museums, paintings, architecture, books, and photographs — collected as fragments of a personal visual language.
+          </p>
+        </div>
+
+        <div class="art-grid">
+          <figure class="art-feature">
+            <!-- ART PHOTO: museum / painting moment. Replace with more museum images later. -->
+            <img src="assets/images/personal/personal-art-monet-gallery.jpg" alt="Chloe looking at a large impressionist painting in a museum">
+            <figcaption>Museum light, slow looking, the pleasure of detail.</figcaption>
+          </figure>
+          <article class="inspiration-note">
+            <p class="quote">
+              To be moved by beauty is also a form of movement — inward, quiet, and lasting.
+            </p>
+            <ul>
+              <li>Museums, paintings, and slow looking</li>
+              <li>Architecture and the poetry of space</li>
+              <li>Books, photography, and visual diaries</li>
+              <li>The quiet pleasure of detail</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="painting-strip" aria-label="Public-domain painting placeholders">
+          <figure>
+            <!-- REPLACE WITH YOUR ART/MUSEUM PHOTO LATER: assets/images/painting-bordighera.jpg -->
+            <img src="assets/images/painting-bordighera.jpg" alt="Claude Monet painting of Bordighera">
+            <figcaption>Monet, Bordighera</figcaption>
+          </figure>
+          <figure>
+            <!-- REPLACE WITH YOUR ART/MUSEUM PHOTO LATER: assets/images/painting-olive-trees.jpg -->
+            <img src="assets/images/painting-olive-trees.jpg" alt="Vincent van Gogh painting of olive trees">
+            <figcaption>Van Gogh, Olive Trees</figcaption>
+          </figure>
+          <figure>
+            <!-- REPLACE WITH YOUR ART/MUSEUM PHOTO LATER: assets/images/painting-mont-sainte-victoire.jpg -->
+            <img src="assets/images/painting-mont-sainte-victoire.jpg" alt="Paul Cezanne painting of Mont Sainte-Victoire">
+            <figcaption>Cezanne, Provence</figcaption>
+          </figure>
+          <figure>
+            <!-- REPLACE WITH YOUR ART/MUSEUM PHOTO LATER: assets/images/painting-seashore-renoir.jpg -->
+            <img src="assets/images/painting-seashore-renoir.jpg" alt="Pierre-Auguste Renoir painting of a woman by the sea">
+            <figcaption>Renoir, By the Sea</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="gallery section-pad" id="gallery">
+        <div class="section-heading">
+          <p class="section-kicker">TRAVEL & PLACES</p>
+          <h2>Collected moments</h2>
+          <p>Not a record of destinations, but a collection of moments: a table by the sea, a quiet street in Paris, sunlight on the coast, and the colors of places I return to in memory.</p>
+          <p class="section-note">Places remembered not by itinerary, but by atmosphere.</p>
+        </div>
+
+        <div class="gallery-wall">
+          <figure class="wide">
+            <!-- GALLERY PHOTO: Paris cafe / seaside lifestyle hero image. -->
+            <img src="assets/images/personal/personal-hero-seaside-cafe.jpg" alt="Chloe at a seaside cafe with water behind her">
+            <figcaption>Seaside table, quiet travel ritual</figcaption>
+          </figure>
+          <figure>
+            <!-- GALLERY PHOTO: Eiffel Tower street scene. -->
+            <img src="assets/images/personal/personal-eiffel-street.jpg" alt="Chloe walking on a Paris street with the Eiffel Tower ahead">
+            <figcaption>Paris street, vertical movement</figcaption>
+          </figure>
+          <figure class="tall">
+            <!-- GALLERY PHOTO: museum window silhouette. -->
+            <img src="assets/images/personal/personal-museum-window.jpg" alt="Chloe silhouetted at a museum window facing Paris architecture">
+            <figcaption>Window, silhouette, museum quiet</figcaption>
+          </figure>
+          <figure>
+            <!-- GALLERY PHOTO: Louvre garden / daily life. -->
+            <img src="assets/images/personal/personal-louvre-garden.jpg" alt="Chloe sitting by the Louvre garden and water">
+            <figcaption>Louvre garden, afternoon pause</figcaption>
+          </figure>
+          <figure class="wide">
+            <!-- GALLERY PHOTO: Seine and Eiffel Tower. -->
+            <img src="assets/images/personal/personal-seine-eiffel.jpg" alt="Chloe seated along the Seine with the Eiffel Tower in the distance">
+            <figcaption>Seine, clouds, a city in motion</figcaption>
+          </figure>
+          <figure>
+            <!-- GALLERY PHOTO: Nice overlook / personal portrait. -->
+            <img src="assets/images/personal/personal-nice-overlook.jpg" alt="Chloe standing above Nice with the city and hills behind her">
+            <figcaption>Nice overlook, soft horizon</figcaption>
+          </figure>
+          <figure>
+            <!-- GALLERY PHOTO: Eiffel Tower at night. -->
+            <img src="assets/images/personal/personal-eiffel-night.jpg" alt="Eiffel Tower glowing at night beside the river">
+            <figcaption>Paris night, golden landmark</figcaption>
+          </figure>
+          <figure class="wide">
+            <!-- GALLERY PHOTO: Mediterranean garden and sea view. -->
+            <img src="assets/images/personal/personal-mediterranean-garden.jpg" alt="Chloe in a Mediterranean garden looking toward the sea">
+            <figcaption>Blue sea, cactus garden, southern air</figcaption>
+          </figure>
+        </div>
+
+        <div class="travel-editorial">
+          <section class="memory-places" aria-label="Places I return to in memory">
+            <div class="travel-editorial-heading">
+              <p class="section-kicker">Travel Memory</p>
+              <h2>Places I return to in memory</h2>
+            </div>
+            <div class="memory-grid">
+              <article>
+                <p class="card-label">Paris</p>
+                <p>Museum windows, river walks, cafés, and pale afternoon light.</p>
+              </article>
+              <article>
+                <p class="card-label">Nice</p>
+                <p>Sea air, blue chairs, market mornings, and a slower rhythm.</p>
+              </article>
+              <article>
+                <p class="card-label">Antibes</p>
+                <p>Stone streets, quiet corners, and the Mediterranean appearing at the end of a lane.</p>
+              </article>
+              <article>
+                <p class="card-label">Èze</p>
+                <p>A village suspended between stone walls and the sea.</p>
+              </article>
+              <article>
+                <p class="card-label">Japan</p>
+                <p>Temple paths, quiet cafés, changing seasons, and the beauty of small rituals.</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="travel-rituals" aria-label="The way I travel">
+            <div class="travel-editorial-heading">
+              <p class="section-kicker">Travel Rhythm</p>
+              <h2>The way I travel</h2>
+              <p>
+                I tend to remember a place through its atmosphere rather than its itinerary: the first coffee of the morning,
+                the color of the sea, the way light falls across an old façade, or the feeling of walking without needing to arrive anywhere.
+              </p>
+            </div>
+            <div class="ritual-labels">
+              <span>Slow mornings</span>
+              <span>A museum before lunch</span>
+              <span>A table by the sea</span>
+              <span>Old streets without a plan</span>
+              <span>A hotel with a sense of place</span>
+              <span>A few photographs, never too many</span>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="journal section-pad" id="journal">
+        <div class="section-heading">
+          <p class="section-kicker">Thoughts / Journal</p>
+          <h2>Notes for a life in motion</h2>
+          <p>
+            A space for longer thoughts and smaller observations — travel notes, reading reflections, city fragments,
+            workday ideas, and the quiet changes that are easier to understand once they have been written down.
+          </p>
+        </div>
+        <div class="travel-journal-panel">
+          <div class="section-heading journal-subheading">
+            <p class="section-kicker">Travel Notes</p>
+            <h2>Notes from places that stay</h2>
+            <p>
+              Short essays, photo sets, and personal reflections from cities, coastlines, museums, cafes, and routes
+              that became part of the larger story.
+            </p>
+          </div>
+          <div class="travel-list" data-travel-journal-list>
+            <article class="travel-card">
+              <img src="assets/images/personal/personal-travel-riviera-town.jpg" alt="Chloe seated beside a Riviera town and the sea">
+              <div>
+                <p class="meta">French Riviera / 2024</p>
+                <h3>Blue distance, changing weather</h3>
+                <p>A note on Mediterranean towns, shifting skies, and the quiet distance between arriving somewhere and slowly beginning to notice it.</p>
+              </div>
+            </article>
+            <article class="travel-card">
+              <img src="assets/images/personal/personal-seine-eiffel.jpg" alt="Chloe seated by the Seine in Paris">
+              <div>
+                <p class="meta">Paris / 2024</p>
+                <h3>A city seen from the river</h3>
+                <p>An afternoon by the Seine, where the city appeared in fragments: bridges, pale light, museum windows, and the familiar feeling of walking without a plan.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="journal-list">
+          <article>
+            <p class="meta">Travel Notes</p>
+            <h3>Places, atmospheres, and memory</h3>
+            <p>Longer reflections on the cities, coastlines, streets, and small arrivals that continue to stay in the mind.</p>
+          </article>
+          <article>
+            <p class="meta">Reading Notes</p>
+            <h3>Sentences worth keeping</h3>
+            <p>Book notes, reading afterthoughts, and reflections that connect literature with daily life.</p>
+          </article>
+          <article>
+            <p class="meta">City Fragments</p>
+            <h3>Small observations from ordinary days</h3>
+            <p>Street corners, conversations, workday ideas, and the details that become clearer once written down.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="motherhood section-pad" id="motherhood">
+        <div class="motherhood-inner">
+          <div class="motherhood-copy">
+            <p class="section-kicker">MOTHERHOOD NOTES</p>
+            <h2>A new kind of movement</h2>
+            <p>
+              A quieter chapter is beginning — shaped not by distance, but by change.
+            </p>
+            <p>
+              This is a personal record of pregnancy, preparation, uncertainty, and tenderness. Not a parenting manual,
+              but a collection of small reflections on becoming a mother, one day at a time.
+            </p>
+          </div>
+          <figure>
+            <!-- MOTHERHOOD PHOTO: placeholder. Replace with your own pregnancy portrait, daily routine, or maternity detail photo later. -->
+            <img src="assets/images/motherhood-reading.jpg" alt="Pregnant woman reading a book in a calm interior">
+            <figcaption>Pregnancy / reading / a quieter season of becoming</figcaption>
+          </figure>
+        </div>
+        <div class="motherhood-topics" aria-label="Future motherhood journal topics">
+          <span>Pregnancy diary</span>
+          <span>Body & identity</span>
+          <span>Birth preparation</span>
+          <span>Books & resources</span>
+          <span>Gentle routines</span>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>For conversations, collaborations, and new routes.</h2>
+        </div>
+        <div class="contact-panel">
+          <p>
+            If something here resonates, I would be happy to hear from you.
+          </p>
+          <a class="button-link" href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>The Art of Moving</p>
+      <p>A personal journal of work, places, art, and becoming.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cms-config.js"></script>
+    <script src="cms-renderer.js"></script>
+  </body>
+</html>
