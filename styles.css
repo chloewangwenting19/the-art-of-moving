@@ -359,6 +359,41 @@ figcaption {
   background: #efe4d5;
 }
 
+.career-layout {
+  display: grid;
+  grid-template-columns: minmax(230px, 0.34fr) minmax(0, 1fr);
+  gap: clamp(30px, 5vw, 68px);
+  align-items: start;
+}
+
+.career-portrait {
+  position: sticky;
+  top: 112px;
+  margin: 0;
+}
+
+.career-portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 5.45;
+  object-fit: cover;
+  object-position: center 18%;
+  border: 1px solid rgba(68, 58, 49, 0.18);
+}
+
+.career-portrait figcaption {
+  max-width: 18rem;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.career-content .section-heading {
+  margin-bottom: clamp(28px, 4vw, 48px);
+}
+
 .timeline {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -805,12 +840,18 @@ figcaption {
 
 @media (max-width: 960px) {
   .intro,
+  .career-layout,
   .split,
   .art-grid,
   .life-board,
   .motherhood-inner,
   .contact {
     grid-template-columns: 1fr;
+  }
+
+  .career-portrait {
+    position: static;
+    max-width: 360px;
   }
 
   .timeline,
@@ -902,6 +943,14 @@ figcaption {
 
   .memory-grid {
     grid-template-columns: 1fr;
+  }
+
+  .career-portrait {
+    max-width: none;
+  }
+
+  .career-portrait img {
+    aspect-ratio: 4 / 5;
   }
 
   .travel-card {
